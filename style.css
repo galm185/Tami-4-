@@ -1,0 +1,248 @@
+/* General */
+body {
+    margin:  0;
+    padding:  0;
+    direction:  rtl;
+    font-family: arial;
+}
+img {width: 100%;}
+
+/* Mobile */
+.desktop {
+	display: none;
+}
+div#body_wrapper {
+	background: url('images/bgmob.jpg') no-repeat top center;
+	background-size: 100%;
+	min-height:  39rem;
+}
+
+/* mob-header */
+header {
+    padding-top: 4.4rem;
+}
+span.image-wrapper {
+    display:  block;
+}
+span.logo {
+    width: 6rem;
+    padding: 1rem;
+    position:  absolute;
+    top: 0;
+    left: 0;
+}
+span.sale {
+    width: 59vw;
+    margin:  0 auto;
+}
+span.price {background: url('images/price.png') no-repeat center;height: 35vw;background-size: 100%;margin-top: -7vw;}
+
+/* mob-form */
+form {}
+fieldset {
+    border:  none;
+}
+label {display: flex;justify-content: space-around;margin-top: 41.9vw;}
+label a {font-size: 1.2rem;color:  #fff;text-decoration:  none;position:  relative;width: 30%;height: 3.4rem;border-radius: 2rem;display: inline-flex;flex-wrap:  wrap;align-items:  center;padding-right:  4rem;}
+label a span {}
+label a span img{
+}
+::placeholder { 
+    color:  #00319d;
+    opacity: 1; 
+}
+
+:-ms-input-placeholder {
+    color:  #00319d;
+}
+
+::-ms-input-placeholder {
+    color:  #00319d;
+}
+
+a#callb {background: #ee3124;}
+a#buy_online {
+    background: #00319d;
+}
+a#callb img {}
+a img {
+    width: 2.4rem;
+    position:  absolute;
+    top: 8px;
+    right: 8px;
+}
+
+
+footer {
+    text-align:  center;
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    font-weight:  bold;
+    margin-bottom: 1vw;
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 751px){
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: block;
+		font-size: 1.1rem;
+		text-align:  center;
+		margin:  0;
+	}
+	body {
+    background: url(images/bgdesk.jpg) no-repeat top center;
+    background-size: 100%;
+}
+
+	div#body_wrapper {
+		background: transparent;
+		display:  flex;
+		justify-content: space-between;
+		flex-wrap:  wrap;
+		position:  absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 49rem;
+		height: 5rem;
+	}
+	span.image-wrapper {width: 23rem;margin:  0 auto;}
+
+	/* mob-header */
+	header {
+}
+main {
+    margin-top:  2rem;
+}
+	form {
+    width: 100%;
+}
+	h2.desktop {
+    margin-top: 4.4rem;
+}
+	label {
+}
+	label a {}
+	label a span {}
+	label a span img{}
+
+	a#callb {}
+	a#buy_online {}
+
+
+	footer {
+    width: 59rem;
+    font-size: 0.5rem;
+    margin-top: 0rem;
+    background:  #fff;
+    position:  absolute;
+    bottom:  0;
+    right: 0;
+ }
+	header {
+    padding-top: 2.4rem;
+    width:  50%;
+ }
+
+	span.logo {
+	    width: 6rem;
+	    padding: 1rem;
+	    position:  absolute;
+	    top: 0;
+	    left: 0;
+	}
+	span.sale {
+	}
+	span.price {background: url('images/price.png') no-repeat center;background-size: 100%;margin-top: -12vw;width:  100%;}
+	#maze {
+    width: 27rem;
+    margin:  0 auto;
+    margin-top: -9rem;
+    margin-right:  -3rem;
+}
+	/* desk-form */
+	form {}
+	fieldset {
+	    border:  none;
+	    background:  #fff;
+	    width: 17rem;
+	    height: 29rem;
+	    color:  #00319d;
+	    margin-top:  4rem;
+	    border-radius: 2rem;
+	    position:  relative;
+	}
+	#logo-des {
+    width:  10rem;
+    position:  absolute;
+    top: -3.7rem;
+    left: 5rem;
+}
+	.input-wrapper {
+    margin:  0 auto;
+    margin-top: 1rem;
+    width: 87%;
+}
+	.input-wrapper input {
+    width:  100%;
+    border: 1px solid #00319d;
+    border-radius:  5px;
+    font-size: 1rem;
+    font-weight:  bold;
+    padding:  0.5rem;
+    box-sizing:  border-box;
+}
+	#updates {
+    display: inline-block;
+    font-size: 0.8rem;
+    padding-right: 1.7rem;
+    position:  relative;
+}
+	#updates input {
+    width: auto;
+    position:  absolute;
+    top: 0;
+    right: 15px;
+}
+
+#customer {
+    display:  flex;
+    width: 87%;
+    margin:  0 auto;
+    font-size: 0.9rem;
+    font-weight:  bold;
+    justify-content:  space-between;
+    margin-top:  1rem;
+}
+#customer span {
+    font-size:  0.9rem;
+    padding-left:  1rem;
+}
+#customer input {
+}
+	label {display:  block;margin-top: 1rem;}
+	label a {width: 100%;height: auto;border-radius: 1rem;text-align: center;display:  block;margin-bottom:  0.8rem;padding: 0.8rem 0px;}
+	label a span {}
+	label a span img{
+	}
+
+	a#callb {
+    background:  red;
+}
+	a#buy_online {
+	    background: #00bbe3;
+	}
+	a#callb img {}
+	a img {
+	    width: 2.4rem;
+	    position:  absolute;
+	    top: 8px;
+	    right: 8px;
+	}
+
+}
